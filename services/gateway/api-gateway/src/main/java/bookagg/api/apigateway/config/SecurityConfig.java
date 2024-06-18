@@ -46,6 +46,9 @@ public class SecurityConfig {
                 .route("userdetails-service", r -> r.path("/userdetails/**")
                         .filters(f -> f.filter(authenticationRedirectFilter))
                         .uri("lb://userdetails-service"))
+                .route("register-service", r -> r.path("/register/**")
+                        .filters(f -> f.filter(authenticationRedirectFilter))
+                        .uri("lb://register-service"))
                 .build();
     }
 
