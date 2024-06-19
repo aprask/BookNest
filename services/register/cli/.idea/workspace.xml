@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc906e30-c247-4a6e-a6b5-08536f83e8d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b0b1f002-3896-4ef3-b034-d682164352b7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,16 +18,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="JpbToolWindowState">
-    <option name="isToolWindowVisible" value="false" />
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2i3CXcZVPBprZSlkIjSvJpiBPYg" />
+  <component name="ProjectId" id="2i4nmWdRTnGbOHPH9nUhc7kMphj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,14 +34,18 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;register&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager">
-    <configuration name="RegisterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="register.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="bookagg.api.register.RegisterApplication" />
+    <configuration name="CliApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cli.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="gamescout.api.cli.CliApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -63,14 +62,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fc906e30-c247-4a6e-a6b5-08536f83e8d0" name="Changes" comment="" />
-      <created>1718709916908</created>
+      <changelist id="b0b1f002-3896-4ef3-b034-d682164352b7" name="Changes" comment="" />
+      <created>1718758876734</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1718709916908</updated>
-      <workItem from="1718709918005" duration="72000" />
-      <workItem from="1718801113557" duration="8000" />
-      <workItem from="1718834341578" duration="4000" />
+      <updated>1718758876734</updated>
+      <workItem from="1718758877850" duration="984000" />
+      <workItem from="1718760147441" duration="198000" />
     </task>
     <servers />
   </component>
