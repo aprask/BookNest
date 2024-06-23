@@ -3,7 +3,6 @@ package gamescout.api.dashboard.model;
 import jakarta.persistence.*;
 import lombok.Data;
 
-import java.util.Set;
 import java.util.UUID;
 
 @Entity(name = "books")
