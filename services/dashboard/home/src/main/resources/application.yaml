@@ -1,0 +1,36 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/home_data_bookagg
+    username: bookadmin
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+server:
+  port: 8085
+
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        orm: DEBUG
+        jdbc: DEBUG
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8005/eureka/
